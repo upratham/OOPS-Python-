@@ -1,0 +1,6 @@
+1.Class and objects (Examples)
+2. Class has data /attribute and ffumctions/method.
+  > Code walkthrough
+  > attributes get called itseld , methods are called manually
+
+3. Why python is called OOP? - Everything in python is an object
