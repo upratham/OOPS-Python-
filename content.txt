@@ -14,6 +14,12 @@
   > Function vs method
   > Magic method or dunder method
   > Self
+  > You can create attribut eoutside class as well.
   > Encapsulation
   > Getter and setter
   > Static method 
+
+6. Inheritance
+   > Inheritance code example 
+   > Why inheritance is needed (Code reuseability , Parent has no access to child)
+   > What gets inherited ? - Constructor,- Non private attributes , Non private methods
