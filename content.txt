@@ -23,3 +23,6 @@
    > Inheritance code example 
    > Why inheritance is needed (Code reuseability , Parent has no access to child)
    > What gets inherited ? - Constructor,- Non private attributes , Non private methods
+   > Constructor overloading and method overloading
+   > Super keyword(can be used only in side class , can not access varibales /attributes , used only inside a class.)
+   > Types of inheritance
