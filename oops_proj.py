@@ -1,9 +1,29 @@
 class chatbook:
-    def __init__(self):
+
+    __user_id=0
+    def __init__(self):  # Constructor/Magic method/dunder method
+        self.__name = "Default User" # Encapsulation of Attribute
+        self.user_id= chatbook.__user_id 
+        chatbook.__user_id += 1
         self.username = ''
         self.password = ''
         self.loggedin = False
-        self.menu()
+        # self.menu()
+
+    # Useing statis method we can use method directly from class rather than object. 
+    @staticmethod
+    def get_id():
+        return chatbook.__user_id
+    @staticmethod
+    def set_id(value):
+        chatbook.__user_id=value
+
+
+    def get_name(self):
+        return self.__name 
+    
+    def set_name(self,value):
+        self.__name = value
 
     def menu(self):
         user_input = input("""Welcome to chat book !! how would you like to proceed?
@@ -62,7 +82,7 @@ class chatbook:
             frnd=input("whom to send th message ?")
             print(f"Your message has be sent to {frnd}")
         else:
-            print("You need to sugn in first")
+            print("You need to sign up first")
         
         print("\n")
         self.menu()

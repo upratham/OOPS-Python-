@@ -11,6 +11,9 @@
   > Easy to colab
 
 5. End to end Project (Chatbook Class)
-  > encapsulation
-  > getter and setter
-  > static method 
+  > Function vs method
+  > Magic method or dunder method
+  > Self
+  > Encapsulation
+  > Getter and setter
+  > Static method 
